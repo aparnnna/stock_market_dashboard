@@ -20,6 +20,20 @@ A React-based stock market dashboard that displays live stock prices for selecte
 - API integration using environment variables
 - Graceful handling of missing API data
 
+## API Limitation Note
+
+This project uses the Alpha Vantage free API to fetch live stock data.
+The free tier of Alpha Vantage has limited and inconsistent support for
+Indian stock exchanges (BSE/NSE).
+
+As a result, some Indian stock symbols may return "N/A" values.
+
+Despite this limitation, the project successfully demonstrates:
+- API integration using Axios
+- Asynchronous data fetching
+- Environment variable usage
+- Conditional rendering and error handling
+- Clean and responsive UI design
 
 
 ## How to Run Locally
